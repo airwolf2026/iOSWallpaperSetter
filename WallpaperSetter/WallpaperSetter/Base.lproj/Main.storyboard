@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fz1-3P-GhJ">
+                                <rect key="frame" x="141" y="480" width="92" height="30"/>
+                                <state key="normal" title="选择一张壁纸"/>
+                                <connections>
+                                    <action selector="selectAWallpaperAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAd-o0-ASB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MerryChristmas" translatesAutoresizingMaskIntoConstraints="NO" id="D2q-EG-XJD">
+                                <rect key="frame" x="0.0" y="28" width="375" height="444.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldB-od-Vkb">
+                                <rect key="frame" x="133.5" y="518" width="108" height="30"/>
+                                <state key="normal" title="设为主屏幕壁纸"/>
+                                <connections>
+                                    <action selector="setAsHomeWallpaerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fsN-f3-ldV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIO-47-66I">
+                                <rect key="frame" x="141" y="556" width="92" height="30"/>
+                                <state key="normal" title="设为锁屏壁纸"/>
+                                <connections>
+                                    <action selector="setAsLockWallpaperAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KOd-0w-Kt5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdi-1i-8qH">
+                                <rect key="frame" x="156" y="594" width="62" height="30"/>
+                                <state key="normal" title="同时设置"/>
+                                <connections>
+                                    <action selector="setAsHomeNLockWallpaperAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyL-D6-INb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leading" secondItem="D2q-EG-XJD" secondAttribute="leading" id="5pA-IH-BpL"/>
+                            <constraint firstItem="D2q-EG-XJD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="5tn-V6-IXB"/>
+                            <constraint firstItem="ldB-od-Vkb" firstAttribute="top" secondItem="fz1-3P-GhJ" secondAttribute="bottom" constant="8" id="CVn-gm-fu7"/>
+                            <constraint firstItem="zdi-1i-8qH" firstAttribute="centerX" secondItem="eIO-47-66I" secondAttribute="centerX" id="HQt-Wh-eRK"/>
+                            <constraint firstItem="eIO-47-66I" firstAttribute="centerX" secondItem="ldB-od-Vkb" secondAttribute="centerX" id="UWI-Da-gsl"/>
+                            <constraint firstItem="ldB-od-Vkb" firstAttribute="centerX" secondItem="fz1-3P-GhJ" secondAttribute="centerX" id="WDP-LT-hc0"/>
+                            <constraint firstItem="D2q-EG-XJD" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2/3" id="ZBj-Sp-Xmc"/>
+                            <constraint firstItem="fz1-3P-GhJ" firstAttribute="centerX" secondItem="D2q-EG-XJD" secondAttribute="centerX" id="aNJ-yJ-y1Y"/>
+                            <constraint firstItem="zdi-1i-8qH" firstAttribute="top" secondItem="eIO-47-66I" secondAttribute="bottom" constant="8" id="l1f-MR-IiE"/>
+                            <constraint firstItem="eIO-47-66I" firstAttribute="top" secondItem="ldB-od-Vkb" secondAttribute="bottom" constant="8" id="qNS-Cg-2H0"/>
+                            <constraint firstItem="D2q-EG-XJD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="u6f-IM-ziM"/>
+                            <constraint firstItem="fz1-3P-GhJ" firstAttribute="top" secondItem="D2q-EG-XJD" secondAttribute="bottom" constant="7.5" id="uph-lj-kST"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="D2q-EG-XJD" id="nWG-c6-WDe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MerryChristmas" width="540" height="960"/>
+    </resources>
+</document>

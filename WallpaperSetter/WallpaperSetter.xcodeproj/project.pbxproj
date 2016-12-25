@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76333BEE1E0BA62A00BE105D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76333BED1E0BA62A00BE105D /* main.m */; };
+		76333BF11E0BA62A00BE105D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76333BF01E0BA62A00BE105D /* AppDelegate.m */; };
+		76333BF41E0BA62A00BE105D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76333BF31E0BA62A00BE105D /* ViewController.m */; };
+		76333BF71E0BA62B00BE105D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76333BF51E0BA62A00BE105D /* Main.storyboard */; };
+		76333BF91E0BA62B00BE105D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76333BF81E0BA62B00BE105D /* Assets.xcassets */; };
+		76333BFC1E0BA62B00BE105D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76333BFA1E0BA62B00BE105D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76333BE91E0BA62A00BE105D /* WallpaperSetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallpaperSetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76333BED1E0BA62A00BE105D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76333BEF1E0BA62A00BE105D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76333BF01E0BA62A00BE105D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76333BF21E0BA62A00BE105D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76333BF31E0BA62A00BE105D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76333BF61E0BA62B00BE105D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76333BF81E0BA62B00BE105D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76333BFB1E0BA62B00BE105D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76333BFD1E0BA62B00BE105D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76333C041E0BD7ED00BE105D /* SBSUIWallpaperPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSUIWallpaperPreviewViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76333BE61E0BA62A00BE105D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76333BE01E0BA62A00BE105D = {
+			isa = PBXGroup;
+			children = (
+				76333BEB1E0BA62A00BE105D /* WallpaperSetter */,
+				76333BEA1E0BA62A00BE105D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76333BEA1E0BA62A00BE105D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76333BE91E0BA62A00BE105D /* WallpaperSetter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76333BEB1E0BA62A00BE105D /* WallpaperSetter */ = {
+			isa = PBXGroup;
+			children = (
+				76333BEF1E0BA62A00BE105D /* AppDelegate.h */,
+				76333BF01E0BA62A00BE105D /* AppDelegate.m */,
+				76333BF21E0BA62A00BE105D /* ViewController.h */,
+				76333BF31E0BA62A00BE105D /* ViewController.m */,
+				76333BF51E0BA62A00BE105D /* Main.storyboard */,
+				76333BF81E0BA62B00BE105D /* Assets.xcassets */,
+				76333BFA1E0BA62B00BE105D /* LaunchScreen.storyboard */,
+				76333BFD1E0BA62B00BE105D /* Info.plist */,
+				76333BEC1E0BA62A00BE105D /* Supporting Files */,
+			);
+			path = WallpaperSetter;
+			sourceTree = "<group>";
+		};
+		76333BEC1E0BA62A00BE105D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76333C041E0BD7ED00BE105D /* SBSUIWallpaperPreviewViewController.h */,
+				76333BED1E0BA62A00BE105D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76333BE81E0BA62A00BE105D /* WallpaperSetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76333C001E0BA62B00BE105D /* Build configuration list for PBXNativeTarget "WallpaperSetter" */;
+			buildPhases = (
+				76333BE51E0BA62A00BE105D /* Sources */,
+				76333BE61E0BA62A00BE105D /* Frameworks */,
+				76333BE71E0BA62A00BE105D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallpaperSetter;
+			productName = WallpaperSetter;
+			productReference = 76333BE91E0BA62A00BE105D /* WallpaperSetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76333BE11E0BA62A00BE105D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DingDang;
+				TargetAttributes = {
+					76333BE81E0BA62A00BE105D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D4XYE6BEZB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76333BE41E0BA62A00BE105D /* Build configuration list for PBXProject "WallpaperSetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76333BE01E0BA62A00BE105D;
+			productRefGroup = 76333BEA1E0BA62A00BE105D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76333BE81E0BA62A00BE105D /* WallpaperSetter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76333BE71E0BA62A00BE105D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76333BFC1E0BA62B00BE105D /* LaunchScreen.storyboard in Resources */,
+				76333BF91E0BA62B00BE105D /* Assets.xcassets in Resources */,
+				76333BF71E0BA62B00BE105D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76333BE51E0BA62A00BE105D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76333BF41E0BA62A00BE105D /* ViewController.m in Sources */,
+				76333BF11E0BA62A00BE105D /* AppDelegate.m in Sources */,
+				76333BEE1E0BA62A00BE105D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76333BF51E0BA62A00BE105D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76333BF61E0BA62B00BE105D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76333BFA1E0BA62B00BE105D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76333BFB1E0BA62B00BE105D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76333BFE1E0BA62B00BE105D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76333BFF1E0BA62B00BE105D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76333C011E0BA62B00BE105D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D4XYE6BEZB;
+				INFOPLIST_FILE = WallpaperSetter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.mineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76333C021E0BA62B00BE105D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D4XYE6BEZB;
+				INFOPLIST_FILE = WallpaperSetter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.mineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76333BE41E0BA62A00BE105D /* Build configuration list for PBXProject "WallpaperSetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76333BFE1E0BA62B00BE105D /* Debug */,
+				76333BFF1E0BA62B00BE105D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76333C001E0BA62B00BE105D /* Build configuration list for PBXNativeTarget "WallpaperSetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76333C011E0BA62B00BE105D /* Debug */,
+				76333C021E0BA62B00BE105D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76333BE11E0BA62A00BE105D /* Project object */;
+}
